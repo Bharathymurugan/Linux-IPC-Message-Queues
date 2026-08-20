@@ -101,7 +101,13 @@ int main(int argc, char *argv[]) {
 
 ## OUTPUT
 
+./msgqueue.o writer
+
+./msgqueue.o reader
+
 ![msgqueue](./images/msgqueue.png)
+
+ipcs -q
 
 ![ipcs](./images/ipcs.png)
 
